@@ -148,13 +148,13 @@ body{
     height: 30px;
     border-radius: 10px;
     border: none;
-    color: var(--moraditoText);
     font-weight: bold;
     margin-right: 10px;
     letter-spacing: 1px;
 }
 .introduction__text button a{
     text-decoration: none;
+    color: var(--moraditoText);
 }
 .introduction__text button:hover{
     background-color: black;

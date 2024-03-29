@@ -1,67 +1,3 @@
-const proyects = [
-    {
-        name: "Lista de tareas",
-        description: "Aplicacion web hecha con react para la creacion de lista de tareas, marcar como hechas y eliminar tareas, resposive",
-        lenguaje: "react y css",
-        linksRepo: "https://github.com/pabloocampo1/ToDo-List",
-        linkWeb: "https://pabloocampo-task-list-react.netlify.app/",
-        urlImage: "./images/todolist.png",
-    },
-    {
-        name: "Pagina de climas",
-        description: "Aplicacion web hecha con react para la consultar el clima de todas las ciudades del mundo trayendo datos de una API de climas, y es resposive",
-        lenguaje: "react y css",
-        linksRepo: "https://github.com/pabloocampo1/React-Weather-app",
-        linkWeb: "https://friendly-pie-d44ed9.netlify.app/",
-        urlImage: "./images/climas.png",
-    },
-    {
-        name: "Consumo de API",
-        description: "Web hecha con el proposito de consumir una api de youtube, trayendo los ultimos videos que se suben en youtube, en este caso de un cantante de genero urbano, hecha con HTML, CSS, JS Y resposive",
-        lenguaje: "HTML, CSS Y JAVASCRIPT",
-        linksRepo: "https://github.com/pabloocampo1/langind-page-API",
-        linkWeb: "https://pabloocampo1.github.io/langind-page-API/#contactOut",
-        urlImage: "./images/eladio.png",
-    },
-    {
-        name: "Inventario de productos",
-        description: "Web de inventario de productos, formulario para guardar productos en el localStorage hecho con HTML, CSS Y JAVASCRIPT ",
-        lenguaje: "HTML, CSS Y JAVASCRIPT",
-        linksRepo: "https://github.com/pabloocampo1/InventaryProducts",
-        linkWeb: "https://pabloocampo1.github.io/InventaryProducts/",
-        urlImage: "./images/invetary.png",
-    },
-    {
-        name: "Calculadora de descuentos",
-        description: "Web calculadora de descuentos, resposive, con DarkMode y dos idiomas incluidos, hecha con HTML, CSS Y JAVASCRIPT ",
-        lenguaje: "HTML, CSS Y JAVASCRIPT",
-        linksRepo: "https://github.com/pabloocampo1/Discount-Calculator",
-        linkWeb: "https://pabloocampo1.github.io/Discount-Calculator/",
-        urlImage: "./images/descuento.png",
-    },
-]
-
-const proyectViuw = document.querySelector(".proyects")
-
-function viuwProyets() {
-    const proyectsAll = proyects.map((proyect, index) => `
-    <div class="card-proyect" data-index="${index}">
-        <div class="img-proyect">
-            <img src='${proyect.urlImage}' alt="imagen de proyecto">
-        </div>
-        <div class="proyect-text">
-            <h3>${proyect.name}</h3>
-            <p>${proyect.description}</p>
-            <span>${proyect.lenguaje}</span>
-            <a href="${proyect.linkWeb}" target="_blank"><img src="./images/icon-website-png-0.jpg" alt="icon web"></a>  <a href="${proyect.linksRepo}" target="_blank"><img src="./images/github_PNG80.png" alt="icon repo"></a>
-        </div>
-    </div>
-    `).join("");
-    proyectViuw.innerHTML = proyectsAll;
-}
-
-
-
 const openMenu = document.querySelector(".menu-mobile");
 const nav = document.querySelector(".nav");
 const closeMenu = document.querySelector(".close-menu");
@@ -149,7 +85,5 @@ function DarkMode() {
     }
 }
 
-window.addEventListener("DOMContentLoaded", () => {
-    viuwProyets()
-})
+
 
