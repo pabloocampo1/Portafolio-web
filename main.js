@@ -47,7 +47,7 @@ function viuwProyets() {
     const proyectsAll = proyects.map((proyect, index) => `
     <div class="card-proyect" data-index="${index}">
         <div class="img-proyect">
-            <img src="${proyect.urlImage}" alt="imagen de proyecto">
+            <img src='${proyect.urlImage}' alt="imagen de proyecto">
         </div>
         <div class="proyect-text">
             <h3>${proyect.name}</h3>
