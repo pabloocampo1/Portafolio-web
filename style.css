@@ -1,0 +1,567 @@
+:root{
+    --backgraund1:#000020;
+    --backgraund2: #171a4a;
+    --moraditoText: rgb(145, 53, 232);
+    --moraditoPaText2:#9674ff;
+    --text-gris:rgb(232, 231, 230);
+
+    /* mod claro */
+     --background1-claro:white;
+     --background2-claro:#e9e9e9;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.2%;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 1.6rem;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+}
+.up{
+    position:fixed;
+    left:95%;
+    top: 90vh;
+    z-index: 1;
+}
+.up img{
+   width: 50px;
+}
+
+
+/* header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px 0px 120px;
+    width: 100%;
+    height: 15vh;
+    background-color: var(--backgraund1);
+}
+.logo-header img{
+    width: 50px;
+}
+.nav{
+    display: flex;
+    width: auto;
+    position: relative;
+}
+.close-menu{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    margin: 20px;
+    display: none;
+}
+.nav-header{
+    width: 500px;
+}
+.nav-header ol{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-header ol li{
+    list-style: none;
+    text-align: center;
+    padding-bottom: 8px;
+    cursor: pointer;
+}
+.nav-header ol li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.nav-header ol li a:hover{
+   color: var(--moraditoText);
+   font-size: 1.8rem;
+   text-decoration: underline;
+}
+.darkmode-Container{
+    margin-left: 20px;
+}
+.darkmode-Container button{
+    all: unset;
+}
+.darkmode img{
+    width: 40px;
+}
+.menu-Container{
+    display: none;
+}
+.menu-Container button{
+    all: unset;
+}
+.menu-mobile img{
+    width: 50px;
+}
+
+/* intro */
+
+.introduction{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    padding: 50px 120px 0px 120px;
+    width: 100%;
+    height: 70vh;
+    background-color: var(--backgraund1);
+    color: white;
+}
+.introduction__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.introduction__img img{
+    width: 400px;
+    border-radius: 50%;
+    background-color: var(--backgraund2);
+}
+.introduction__text{
+   padding: 50px 50px 0px 20px ;
+}
+.introduction__text h1{
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.introduction__text h1 span{
+    color: var(--moraditoText);
+}
+.introduction__text p{
+    padding-bottom: 40px;
+    color: rgb(232, 231, 230);
+}
+.introduction__text p span{
+   font-weight: bold;
+}
+.introduction__text button{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    color: var(--moraditoText);
+    font-weight: bold;
+    margin-right: 10px;
+    letter-spacing: 1px;
+}
+.introduction__text button a{
+    text-decoration: none;
+}
+.introduction__text button:hover{
+    background-color: black;
+    color: white;
+}
+
+
+.custom-shape-divider-top-1710806238 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1710806238 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1710806238 .shape-fill {
+    fill: var(--backgraund1);
+}
+
+/* section about me */
+
+.about-me{
+    width: 100%;
+    height: 80vh;
+    background-color:var(--backgraund2) ;
+    position: relative;
+    color: white;
+    padding: 120px 120px 0px 120px;
+}
+.about-me h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.about-me p{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    color: white;
+}
+.about-me p span{
+    color: var(--moraditoPaText2);
+    font-size: 1.8rem;
+}
+
+/* proyect */
+
+.proyect{
+    width: 100%;
+    height: auto;
+    background-color: var(--backgraund1);
+    position: relative;
+    padding: 60px 120px 0px 120px;
+}
+.custom-shape-divider-top-1710971009 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1710971009 svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 173px;
+}
+
+.custom-shape-divider-top-1710971009 .shape-fill2 {
+    fill: var(--backgraund2);
+}
+.proyect h2{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.proyects{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    row-gap: 30px;
+    padding-bottom: 50px;
+}
+.card-proyect{
+    background-color: rgb(255, 255, 255);
+    height: 250px;
+    border-radius: 20px;
+    overflow:hidden ;
+    box-shadow: 1px 1px 12px rgb(102, 88, 226);
+    display: flex;
+}
+
+.img-proyect{
+    width: 40%;
+    height: 100%;
+}
+.img-proyect img{
+    width: 100%;
+    height:100% ;
+}
+.proyect-text{
+    width: 60%;
+    height: 100%;
+    padding: 20px 20px 20px 20px ;
+}
+.proyect-text h3{
+    padding-top: 10px;
+    color: var(--moraditoText);
+}
+.proyect-text p{
+    padding-top: 20px;
+    color: var(--backgraund2);
+}
+.proyect-text span{
+    padding-top: 20px;
+    color: var(--moraditoText);
+    display: block;
+}
+
+.proyect-text a img{
+   width: 30px;
+   margin-top: 20px;
+   margin-right: 10px;
+}
+
+/* skill */
+
+
+.skill{
+    width: 100%;
+    height: 80vh;
+    background-color: var(--backgraund2);
+    padding: 120px 120px 0px 120px;
+    position: relative;
+}
+.skill h2{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.skill-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skill-content div{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin: 10px;
+}
+.skill-content div ol{
+    list-style: disc;
+    color: var(--moraditoPaText2);
+}
+.skill-content div ol li{
+    padding: 5px;
+}
+.skill-content div ol li a{
+    text-decoration: none;
+    color: white;
+}
+.skill-content div ol li a span{
+    text-decoration: underline;
+    color: var(--moraditoPaText2);
+}
+
+/* contact */
+.contact{
+    width: 100%;
+    height: auto;
+    padding:30px 120px 40px 120px ;
+    background-color: var(--backgraund1);
+}
+.contact h2{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+}
+.contact-socialMedia{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-socialMedia a button{
+   all: unset;
+}
+.contact-socialMedia a img{
+    width: 50px;
+    margin: 10px;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+
+
+.inactive{
+    display: none;
+}
+
+/* resposive */
+
+@media (max-width: 768px) {
+    .up{
+        position:fixed;
+        left:90%;
+        top: 90vh;
+        z-index: 1;
+    }
+    .header{
+        padding: 50px 50px 0px 50px;
+        width: 100%;
+    }
+    .menu-Container{
+        display: inline-block;
+    }
+    .nav{
+        position:fixed;
+        right:0;
+        top: 0;
+        width: 70%;
+        height: 100vh;
+        border-radius: 20px 0px 0px 20px;
+        z-index: 2;
+        background-color: white;
+        display: none;
+        flex-direction: column;
+    }
+    .nav-header{
+        width: 100%;
+        height: 50%;
+        margin-top: 100px;
+    }
+    .nav-header ol{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-header ol li{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        margin-bottom: 10px;
+    }
+    .nav-header ol li a{
+        color: #000020;
+        text-align: start;
+        padding-left: 20px;
+    }
+    .close-menu{
+        display: inline-block;
+    }
+    .introduction{
+        padding: 50px 30px 0px 30px;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        height: 100vh;
+    }
+    .introduction__img img{
+        width: 300px;
+    }
+    .about-me{
+        padding: 100px 30px 0px 30px;
+    }
+    .proyect{
+        padding: 50px 30px 0px 30px;
+    }
+    .skill{
+        padding: 100px 30px 20px 30px;
+    }
+    .contact{
+        padding: 50px 30px 0px 30px;
+    }
+
+    
+    
+}
+@media (max-width: 480px) {
+    .up{
+        left:85%;
+        top: 90vh;
+    }
+    /* header */
+    .header{
+        padding: 10px 20px 0px 20px;
+        width: 100%;
+    }
+    .menu-Container{
+        display: inline-block;
+    }
+    .introduction{
+        padding: 50px 30px 100px 30px;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        height: auto;
+    }
+    .introduction__text{
+        text-align: center;
+     }
+    .about-me{
+        padding: 100px 20px 120px 20px;
+        height: auto;
+    }
+    .proyect{
+        padding: 50px 10px 0px 10px;
+    }
+    .card-proyect{
+        height: auto;
+    }
+    .img-proyect{
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .img-proyect img{
+        width: 100%;
+        height:50% ;
+    }
+    .skill{
+        padding: 100px 10px 20px 10px;
+        height: 60vh;
+    }
+    .contact{
+        padding: 50px 10px 10px 10px;
+
+    }
+    .contact h2{
+        text-align: center;
+    }
+}
+
+
+/* when mayor */
+
+
+@media (min-width: 769px) {
+    .nav {
+        display: flex !important; 
+    }
+}
+
+@media (min-width: 1420px) {
+    .nav {
+        display: flex !important; 
+    }
+    .up{
+        left:95%;
+        top: 90vh;
+    }
+    /* header */
+    .header{
+        padding: 50px 200px 0px 200px;
+        width: 100%;
+    }
+    .introduction{
+        padding: 50px 200px 0px 200px;
+    }
+    .introduction{
+        padding: 50px 200px 100px 200px;
+        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        height: auto;
+    }
+    .about-me{
+        padding: 100px 200px 120px 200px;
+        height: auto;
+    }
+    .proyect{
+        padding: 50px 200px 0px 200px;
+    }
+    .proyects{
+        grid-template-columns: repeat(auto-fill, minmax(70%, 1fr));
+    }
+    
+    .img-proyect img{
+        width: 100%;
+        height:100% ;
+    }
+    .skill{
+        padding: 100px 200px 20px 200px;
+        height: 50vh;
+    }
+    .contact{
+        padding: 50px 200px 10px 200px;
+
+    }
+}
