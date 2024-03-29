@@ -24,12 +24,12 @@ const proyects = [
         urlImage: "../images/eladio.png",
     },
     {
-        name: "Calculadora de edad",
-        description: "Web calculadora de edad, resposive y con DarkMode, hecha con HTML, CSS Y JAVASCRIPT ",
+        name: "Inventario de productos",
+        description: "Web de inventario de productos, formulario para guardar productos en el localStorage hecho con HTML, CSS Y JAVASCRIPT ",
         lenguaje: "HTML, CSS Y JAVASCRIPT",
-        linksRepo: "https://github.com/pabloocampo1/Age-calculator",
-        linkWeb: "https://pabloocampo1.github.io/Age-calculator/",
-        urlImage: "../images/age.png",
+        linksRepo: "https://github.com/pabloocampo1/InventaryProducts",
+        linkWeb: "https://pabloocampo1.github.io/InventaryProducts/",
+        urlImage: "../images/invetary.png",
     },
     {
         name: "Calculadora de descuentos",
