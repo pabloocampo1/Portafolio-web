@@ -5,7 +5,7 @@ const proyects = [
         lenguaje: "react y css",
         linksRepo: "https://github.com/pabloocampo1/ToDo-List",
         linkWeb: "https://pabloocampo-task-list-react.netlify.app/",
-        urlImage: "../images/todolist.png",
+        urlImage: "./images/todolist.png",
     },
     {
         name: "Pagina de climas",
@@ -13,7 +13,7 @@ const proyects = [
         lenguaje: "react y css",
         linksRepo: "https://github.com/pabloocampo1/React-Weather-app",
         linkWeb: "https://friendly-pie-d44ed9.netlify.app/",
-        urlImage: "../images/climas.png",
+        urlImage: "./images/climas.png",
     },
     {
         name: "Consumo de API",
@@ -21,7 +21,7 @@ const proyects = [
         lenguaje: "HTML, CSS Y JAVASCRIPT",
         linksRepo: "https://github.com/pabloocampo1/langind-page-API",
         linkWeb: "https://pabloocampo1.github.io/langind-page-API/#contactOut",
-        urlImage: "../images/eladio.png",
+        urlImage: "./images/eladio.png",
     },
     {
         name: "Inventario de productos",
@@ -29,7 +29,7 @@ const proyects = [
         lenguaje: "HTML, CSS Y JAVASCRIPT",
         linksRepo: "https://github.com/pabloocampo1/InventaryProducts",
         linkWeb: "https://pabloocampo1.github.io/InventaryProducts/",
-        urlImage: "../images/invetary.png",
+        urlImage: "./images/invetary.png",
     },
     {
         name: "Calculadora de descuentos",
@@ -37,7 +37,7 @@ const proyects = [
         lenguaje: "HTML, CSS Y JAVASCRIPT",
         linksRepo: "https://github.com/pabloocampo1/Discount-Calculator",
         linkWeb: "https://pabloocampo1.github.io/Discount-Calculator/",
-        urlImage: "../images/descuento.png",
+        urlImage: "./images/descuento.png",
     },
 ]
 
