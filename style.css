@@ -372,6 +372,9 @@ body{
     color: white;
     text-align: center;
 }
+.footer p{
+    color: var(--moraditoPaText2);
+}
 
 
 
