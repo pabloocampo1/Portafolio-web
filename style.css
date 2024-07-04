@@ -537,12 +537,10 @@ body{
         width: 100%;
     }
     .introduction{
-        padding: 50px 200px 0px 200px;
-    }
-    .introduction{
         padding: 50px 200px 100px 200px;
-        grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
         height: auto;
+        gap: 20px;
     }
     .about-me{
         padding: 100px 200px 120px 200px;
